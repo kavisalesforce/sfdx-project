@@ -1,3 +1,6 @@
+/*
+Controller class to display doctors in Lightning home page
+*/
 public with sharing class AccountController {
     public String accountId{get;set;}
     public Account actObj{get;set;}
