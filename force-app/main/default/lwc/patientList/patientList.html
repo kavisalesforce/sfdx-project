@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Patient Records">
+        <template if:true={data}>
+            <lightning-datatable columns={columns}
+                data={data}    
+                key-field="id">
+            </lightning-datatable>
+        </template>
+        <template if:false={data}>
+            No Patients under this doctor
+        </template>
+    </lightning-card>
+    
+</template>
