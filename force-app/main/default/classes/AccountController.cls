@@ -1,5 +1,5 @@
 /*
-Controller class to display doctors in Lightning home page
+Controller class to display doctors in Lightning home page component
 */
 public with sharing class AccountController {
     public String accountId{get;set;}
